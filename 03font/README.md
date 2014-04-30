@@ -1,7 +1,5 @@
 ## 字体fft
 
-SDL仅原生地支持bmp格式的图片文件，但是通过使用SDL_image这个扩展库，你将可以加载BMP, PNM, XPM, LBM, PCX, GIF, JPEG, TGA 和 PNG 格式的图片文件。
-
 ### 使用
 
 #include <SDL/SDL_image.h>
