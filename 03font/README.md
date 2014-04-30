@@ -22,7 +22,7 @@ Makefile: -lSDL_image
 
 该函数的第一个参数是你想要打开的字体文件的文件名，第二个参数是你在打开字体文件时想要设定的字体大小。如果加载字体时出现错误，会返回NULL。
 
-``
+```
 	TTF_Font *font = TTF_OpenFont("../font/font.otf", size);
 	if ( ! font )
 	{
